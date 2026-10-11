@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="es-CL">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Panel de control · Rifa Liga del Rock Academy</title>
+<meta name="robots" content="noindex,nofollow">
+<meta name="theme-color" content="#08152a">
+<link rel="icon" type="image/png" href="data:image/png;base64,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">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+<header class="top">
+  <div class="top-in">
+    <div class="logo" role="img" aria-label="Logo Liga del Rock Academy"></div>
+    <div class="titles">
+      <p class="eyebrow">Liga del Rock Academy · Panel de control</p>
+      <h1>Control de la <span>Rifa</span></h1>
+    </div>
+    <div class="top-actions">
+      <span class="pill local" id="estadoSync" role="status" aria-live="polite">Modo local</span>
+      <button class="btn ghost" id="btnAjustes" type="button">Ajustes</button>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <noscript><p>Este panel necesita JavaScript.</p></noscript>
+
+  <div class="banner" id="aviso" role="alert" hidden>
+    <span id="avisoTexto"></span>
+    <button class="chip" id="btnReintentar" type="button">Reintentar</button>
+    <button class="chip" id="btnRecargar" type="button">Descartar y recargar de la planilla</button>
+  </div>
+
+  <!-- Resumen -->
+  <section class="kpis" aria-label="Resumen de la rifa">
+    <article class="kpi"><p class="l">Números vendidos</p><p class="v" id="kVend">–</p><p class="s" id="kVendS">&nbsp;</p></article>
+    <article class="kpi"><p class="l">Números disponibles</p><p class="v" id="kDisp">–</p><p class="s" id="kDispS">&nbsp;</p></article>
+    <article class="kpi"><p class="l">Total recaudado</p><p class="v ok" id="kRec">–</p><p class="s">Pagos confirmados</p></article>
+    <article class="kpi"><p class="l">Pendiente por cobrar</p><p class="v warn" id="kPend">–</p><p class="s">Reservados sin pagar</p></article>
+    <article class="kpi"><p class="l">Gastos de la rifa</p><p class="v" id="kGas">–</p><p class="s">Registro de egresos</p></article>
+    <article class="kpi hl"><p class="l">Fondos netos</p><p class="v blue" id="kNeto">–</p><p class="s">Recaudado − gastos</p></article>
+  </section>
+
+  <section class="progress" aria-label="Avance de la meta">
+    <div class="row"><span>Avance de la meta</span><span id="pAvance">0%</span></div>
+    <div class="bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" id="bar"><span id="barFill"></span></div>
+    <p class="note" id="pMeta"></p>
+  </section>
+
+  <!-- Pestañas -->
+  <nav class="tabs" role="tablist" aria-label="Secciones">
+    <button class="tab" role="tab" data-vista="tablero" aria-selected="true" type="button">Tablero</button>
+    <button class="tab" role="tab" data-vista="tabla" aria-selected="false" type="button">Tabla</button>
+    <button class="tab" role="tab" data-vista="gastos" aria-selected="false" type="button">Gastos</button>
+    <button class="tab" role="tab" data-vista="resumen" aria-selected="false" type="button">Resumen</button>
+    <button class="tab" role="tab" data-vista="respaldo" aria-selected="false" type="button">Respaldo</button>
+  </nav>
+
+  <!-- Tablero y Tabla comparten filtros -->
+  <div class="controls" id="controles">
+    <button class="chip" data-f="todos" aria-pressed="true" type="button">Todos</button>
+    <button class="chip" data-f="Disponible" aria-pressed="false" type="button">Disponibles</button>
+    <button class="chip" data-f="Reservado / Pendiente" aria-pressed="false" type="button">Reservados</button>
+    <button class="chip" data-f="Pagado" aria-pressed="false" type="button">Pagados</button>
+    <input type="search" id="q" placeholder="Buscar número, nombre o vendedor…" aria-label="Buscar">
+  </div>
+
+  <section data-panel="tablero">
+    <div class="legend">
+      <span><i style="background:var(--ok)"></i>Pagado</span>
+      <span><i style="background:var(--warn)"></i>Reservado / pendiente</span>
+      <span><i style="background:#3a5580"></i>Disponible</span>
+      <span class="hint">Toca un número para registrar o editar la venta.</span>
+    </div>
+    <div class="grid" id="grid"></div>
+  </section>
+
+  <section data-panel="tabla" hidden>
+    <div class="table-wrap">
+      <table>
+        <thead><tr>
+          <th>N°</th><th>Comprador</th><th>Contacto</th><th>Instagram</th><th>Estado</th><th>Método</th>
+          <th>Comprobante</th><th>Vendedor</th><th>Fecha</th><th>Observaciones</th><th></th>
+        </tr></thead>
+        <tbody id="tbodyTickets"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section data-panel="gastos" hidden>
+    <form class="card form-grid" id="formGasto" autocomplete="off">
+      <h2>Registrar gasto</h2>
+      <label>Fecha<input type="date" id="gFecha" required></label>
+      <label class="wide">Concepto / detalle<input type="text" id="gConcepto" maxlength="120" required placeholder="Ej: Impresión de talonarios"></label>
+      <label>Monto ($)<input type="number" id="gMonto" min="1" step="1" required inputmode="numeric"></label>
+      <label>Comprobante / foto (link o nota)<input type="text" id="gComp" maxlength="120"></label>
+      <label>Aprobado por<input type="text" id="gAprob" maxlength="60"></label>
+      <div class="actions"><button class="btn" type="submit">Agregar gasto</button></div>
+    </form>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Fecha</th><th>Concepto</th><th class="m">Monto</th><th>Comprobante</th><th>Aprobado por</th><th></th></tr></thead>
+        <tbody id="tbodyGastos"></tbody>
+        <tfoot><tr><td colspan="2">Total gastos</td><td class="m" id="gTotal">$0</td><td colspan="3"></td></tr></tfoot>
+      </table>
+    </div>
+  </section>
+
+  <section data-panel="resumen" hidden>
+    <div class="banner warn" id="alertaCuadre" hidden></div>
+    <h2>Por método de pago <small>(solo pagados)</small></h2>
+    <div class="table-wrap"><table>
+      <thead><tr><th>Método</th><th class="m">N° pagados</th><th class="m">Monto</th></tr></thead>
+      <tbody id="tbodyMetodo"></tbody>
+    </table></div>
+    <h2>Por vendedor / referido</h2>
+    <div class="table-wrap"><table>
+      <thead><tr><th>Vendedor</th><th class="m">Pagados</th><th class="m">Reservados</th><th class="m">Recaudado</th></tr></thead>
+      <tbody id="tbodyVend"></tbody>
+    </table></div>
+  </section>
+
+  <section data-panel="respaldo" hidden>
+    <div class="card">
+      <h2>Respaldo de datos</h2>
+      <p class="note">Los datos se guardan automáticamente en este navegador. Descarga un respaldo de vez en cuando.</p>
+      <div class="actions wrap-actions">
+        <button class="btn" id="btnExpJSON" type="button">Descargar respaldo (JSON)</button>
+        <button class="btn ghost" id="btnExpCSV" type="button">Exportar números (CSV)</button>
+        <button class="btn ghost" id="btnExpGastos" type="button">Exportar gastos (CSV)</button>
+        <label class="btn ghost file">Restaurar respaldo (JSON)<input type="file" id="fileImport" accept=".json,application/json" hidden></label>
+      </div>
+    </div>
+    <div class="card">
+      <h2>Planilla de Google</h2>
+      <p class="note">Si conectaste la planilla en <strong>Ajustes</strong>, los cambios se envían solos. Usa este botón solo para cargar por primera vez los datos de este navegador a la planilla (reemplaza lo que haya en ella).</p>
+      <div class="actions wrap-actions">
+        <button class="btn ghost" id="btnSubir" type="button">Enviar todo a la planilla</button>
+        <button class="btn danger" id="btnReset" type="button">Vaciar datos de este navegador</button>
+      </div>
+    </div>
+  </section>
+
+  <footer>© Liga del Rock Academy · Panel privado: no compartas este archivo ni tu clave.</footer>
+</main>
+
+<!-- Ficha de un número -->
+<dialog id="dlgTicket" aria-labelledby="dlgTitulo">
+  <form id="formTicket" method="dialog" autocomplete="off" novalidate>
+    <header class="dlg-head"><h2 id="dlgTitulo">Número 00</h2><button type="button" class="x" id="btnCerrarTicket" aria-label="Cerrar">×</button></header>
+    <div class="form-grid">
+      <label>Estado del pago
+        <select id="fEstado">
+          <option>Disponible</option><option>Reservado / Pendiente</option><option>Pagado</option>
+        </select>
+      </label>
+      <fieldset id="camposVenta">
+        <label class="wide">Comprador / nombre<input type="text" id="fNombre" maxlength="120"></label>
+        <label>Contacto / teléfono (WhatsApp)<input type="tel" id="fTel" maxlength="30" inputmode="tel" placeholder="+56 9 1234 5678"></label>
+        <label>Instagram / red social<input type="text" id="fIG" maxlength="60" placeholder="@usuario"></label>
+        <label>Método de pago
+          <select id="fMetodo"><option value="">— elegir —</option><option>Transferencia</option><option>Efectivo</option><option>MercadoPago/Webpay</option></select>
+        </label>
+        <label>Comprobante / N° transacción<input type="text" id="fComp" maxlength="120"></label>
+        <label>Vendedor / referido<input type="text" id="fVend" maxlength="60" list="listaVend"></label>
+        <label>Fecha de compra<input type="date" id="fFecha"></label>
+        <label class="wide">Observaciones<textarea id="fObs" rows="2" maxlength="300"></textarea></label>
+      </fieldset>
+    </div>
+    <datalist id="listaVend"></datalist>
+    <p class="form-error" id="fError" role="alert" hidden></p>
+    <footer class="dlg-actions">
+      <a class="btn ghost" id="lnkWA" target="_blank" rel="noopener" hidden>WhatsApp</a>
+      <button type="button" class="btn danger" id="btnLiberar" hidden>Liberar número</button>
+      <span class="spacer"></span>
+      <button type="button" class="btn ghost" id="btnCancelar">Cancelar</button>
+      <button type="submit" class="btn" id="btnGuardar">Guardar</button>
+    </footer>
+  </form>
+</dialog>
+
+<!-- Ajustes -->
+<dialog id="dlgAjustes" aria-labelledby="ajTitulo">
+  <form id="formAjustes" method="dialog" autocomplete="off">
+    <header class="dlg-head"><h2 id="ajTitulo">Ajustes</h2><button type="button" class="x" id="btnCerrarAj" aria-label="Cerrar">×</button></header>
+    <div class="form-grid">
+      <label class="wide">URL de la aplicación web (Apps Script, termina en /exec)
+        <input type="url" id="aUrl" placeholder="https://script.google.com/macros/s/…/exec">
+      </label>
+      <label class="wide">Clave del panel
+        <input type="password" id="aToken" autocomplete="off" placeholder="La misma clave que pusiste en el script">
+      </label>
+      <label>Valor por número ($)<input type="number" id="aPrecio" min="1" step="1" required></label>
+      <label>Actualizar cada (segundos)<input type="number" id="aRefresco" min="5" max="300" step="1" required></label>
+      <p class="note wide">Si dejas la URL o la clave vacías, el panel funciona solo en este navegador (modo local).</p>
+      <p class="note wide" id="aResultado" role="status"></p>
+    </div>
+    <footer class="dlg-actions">
+      <button type="button" class="btn ghost" id="btnProbar">Probar conexión</button>
+      <span class="spacer"></span>
+      <button type="button" class="btn ghost" id="btnCancelarAj">Cancelar</button>
+      <button type="submit" class="btn">Guardar</button>
+    </footer>
+  </form>
+</dialog>
+
+<div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+
+<script src="app.js"></script>
+</body>
+</html>
